@@ -33,3 +33,23 @@ github "sudo",       "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "firefox",        "1.0.6"
+github "intellij",       "1.2.0"
+github "java",           "1.1.1"
+github "crashplan",      "1.0.1"
+github "alfred",         "1.1.0" 
+github "chrome",         "1.1.0"
+github "skype",          "1.0.2"
+github "dropbox",        "1.1.0"
+github "dpkg",           "1.0.0"
+github "xquartz",        "1.1.0"
+github "imagemagick",    "1.2.0"
+github "virtualbox",     "1.0.3"
+github "wkhtmltopdf",    "1.0.0"
+github "wget",           "1.0.0"
+github "github_for_mac", "1.0.1"
+github "zsh",            "1.0.0"
+github "vlc",            "1.0.1"
+github "osx",            "1.3.0"
+github "adamvim",        "0.1.0", :repo => "ggoodyer/puppet-vim"

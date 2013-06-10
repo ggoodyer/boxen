@@ -49,12 +49,39 @@ Service {
 Homebrew::Formula <| |> -> Package <| |>
 
 node default {
+  
   # core modules, needed for most things
   include dnsmasq
   include git
   include hub
   include nginx
 
+  # packages 
+  class { 'intellij':
+    edition => 'community',
+  }
+
+  include java
+  include zsh
+  include dpkg
+  include imagemagick
+  include wkhtmltopdf 
+  include virtualbox
+  include wget
+  include firefox
+  include intellij
+  include crashplan
+  include alfred
+  include chrome
+  include skype
+  include dropbox
+  include github_for_mac
+  include vlc
+  include adamvim
+
+  # enables zoom by scrolling while holding Control
+  #osx::universal_access::ctrl_mod_zoom
+  
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
