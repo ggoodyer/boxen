@@ -2,6 +2,30 @@ class people::ggoodyer {
 
   #osx::recovery_message { 'If this Mac is found, please call lews.telamon@me.com': } 
 
+  include java
+  include zsh
+  include dpkg
+  include imagemagick
+  include wkhtmltopdf
+  include virtualbox
+  include wget
+  include firefox
+  include crashplan
+  include alfred
+  include chrome
+  include skype
+  include dropbox
+  include github_for_mac
+  include vlc
+  include adamvim
+  
+  class { 'intellij':
+    edition => 'community',
+    version => '130.754'
+  }
+
+
+
   ################################################
   # DOCK SETTINGS
   ################################################
