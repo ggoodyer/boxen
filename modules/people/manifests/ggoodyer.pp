@@ -19,9 +19,10 @@ class people::ggoodyer {
   include vlc
   include adamvim
   
+  #ideaIC-130.1486.dmg
   class { 'intellij':
     edition => 'community',
-    version => '130.754'
+    version => '130.1486'
   }
 
 
