@@ -17,6 +17,7 @@ class people::ggoodyer {
   include dropbox
   include github_for_mac
   include vlc
+  include fluid
   include adamvim
   
   #ideaIC-130.1486.dmg
