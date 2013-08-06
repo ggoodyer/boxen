@@ -18,6 +18,7 @@ class people::ggoodyer {
   include github_for_mac
   include vlc
   include fluid
+  include evernote
   include adamvim
   
   #ideaIC-130.1486.dmg
